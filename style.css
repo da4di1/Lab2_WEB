@@ -1,0 +1,43 @@
+body {
+    padding: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    background-color:#17dfdf; 
+    border:2px solid #516364;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:#05555f;
+    color: white;
+}
+
+button:active {
+    background-color:#0ebb39;
+    color: white;
+}
+
+table{
+    margin-left:44%;
+}
+
+.creating_table {
+    margin-top: 5%;
+    margin-left: 44%;
+}
+
+.creating_table_color {
+    margin-left: 3%;
+}
+
+tr,td {
+    text-align: center;
+    border:1.5px solid #516364;
+    padding:10px;
+    cursor: pointer;
+}

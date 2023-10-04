@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab2 Tolmachov Anton IS-01</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <!--Ex 1-->
+        <form>
+            <h2>Форма для заповнення</h2>
+            <p>
+                <label for="name">ПІБ:</label>
+                <input type="text" id="name" name="user_name" placeholder='ТТТТТТ Т.Т.'>
+            </p>
+            <p>
+                <label for="group">Група:</label>
+                <input type="text" id="group" name="user_group" placeholder='ТТ-ЧЧ'>
+            </p>
+            <p>
+                <label for="phone">Телефон:</label>
+                <input type="text" id="phone" name="user_phone" placeholder='(ЧЧЧ)-ЧЧЧ-ЧЧ-ЧЧ'>
+            </p>
+            <p>
+                <label for="address">Адреса:</label>
+                <input type="text" id="address" name="user_address" placeholder='м. TTTTT'>
+            </p>
+            <p>
+                <label for="mail">E-mail:</label>
+                <input type="text" id="mail" name="user_email" placeholder='тттттт@ттттт.com'>
+            </p>
+            <button type='submit' onclick='validateForm()'>Підтвердити</button>
+        </form>
+        <!--Ex 1-->
+
+         <!--Ex 2-->
+         <table>
+            <button onclick="createTable()" class="creating_table">Створити таблицю</button>
+            <input type="color" class="creating_table_color" id="color">
+        </table>
+        <!--Ex 2-->
+
+        <script src="script.js"></script>
+    </body>
+</html>
